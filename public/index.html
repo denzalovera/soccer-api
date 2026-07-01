@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FIFA World Cup Standings</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>FIFA World Cup Standings</h1>
+      <div class="subtitle" id="subtitle">Group stage</div>
+    </div>
+    <div class="controls">
+      <button id="load" type="button">Reload</button>
+    </div>
+  </header>
+
+  <div class="status" id="status">Loading…</div>
+
+  <div class="legend" id="legend" hidden>
+    <span><span class="swatch q"></span> Advances to knockout round</span>
+    <span><span class="swatch p"></span> May advance (best 3rd places)</span>
+  </div>
+
+  <main>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
