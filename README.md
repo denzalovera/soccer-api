@@ -48,4 +48,3 @@ requests so the API key stays server-side and never reaches the browser.
 - The free football-data.org tier allows 10 requests per minute.
 - To show a different competition, change `COMPETITION_CODE` in
   `public/js/config.js`.
-# soccer-api
